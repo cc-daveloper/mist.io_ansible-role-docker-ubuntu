@@ -1,5 +1,7 @@
 - name: Apply docker role
   hosts: localhost
   sudo: yes
+  vars_files:
+      - defaults/main.yml
   tasks:
       - include: tasks/main.yml
