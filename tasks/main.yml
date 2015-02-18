@@ -25,4 +25,4 @@
     cache_valid_time: 600 # FIXME
 
 - name: Start Docker
-  service: name=docker state=started enabled=yes
+  service: name=docker.io state=started enabled=yes
