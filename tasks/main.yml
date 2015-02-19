@@ -30,4 +30,4 @@
     dest: /etc/default/docker.io
 
 - name: Start Docker
-  service: name=docker.io state=started enabled=yes
+  service: name=docker.io state=restarted enabled=yes
